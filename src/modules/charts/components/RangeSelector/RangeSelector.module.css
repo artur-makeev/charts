@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+@media screen and (width <=565px) {
+	.container {
+		flex-direction: column;
+	}
+}

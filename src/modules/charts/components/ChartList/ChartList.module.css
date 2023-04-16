@@ -1,0 +1,17 @@
+.container {
+	padding: 20px 40px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.spinner {
+	margin-top: 100px;
+}
+
+@media screen and (width <=827px) {
+	.container {
+		justify-content: center;
+	}
+}

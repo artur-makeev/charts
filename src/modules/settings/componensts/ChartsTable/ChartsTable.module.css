@@ -1,0 +1,47 @@
+.container {
+	width: 1000px;
+}
+
+.table {
+	min-width: 350px;
+}
+
+.tableHead {
+	font-weight: 700;
+}
+
+.spinnerContainer{
+	text-align: center;
+}
+
+.spinner {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.errorContainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.alert {
+	width: 192.47px;
+	text-align: center	;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+@media screen and (width <=1100px) {
+	.container {
+		width: 80vw;
+	}
+}
+
+@media screen and (width <= 500px) {
+	.container {
+		width: 100vw;
+	}
+}

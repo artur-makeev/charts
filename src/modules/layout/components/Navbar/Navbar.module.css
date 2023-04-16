@@ -1,0 +1,13 @@
+.toolbar {
+	gap: 15px;
+}
+
+.link {
+	border-bottom: 2px solid transparent;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.linkActive {
+	border-bottom: 2px solid white;
+}
