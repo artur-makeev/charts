@@ -35,6 +35,7 @@ export const RangeSelector = () => {
 							onChange={(newValue) => {
 								handleChangeMin(newValue);
 							}}
+							maxDate={dayjs(range.max)}
 						/>
 						<DatePicker
 							className={styles.datePicker}
@@ -43,6 +44,7 @@ export const RangeSelector = () => {
 							onChange={(newValue) => {
 								handleChangeMax(newValue);
 							}}
+							minDate={dayjs(range.min)}
 						/>
 					</div>
 				</LocalizationProvider>
