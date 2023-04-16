@@ -13,3 +13,6 @@ npm run dev
 
 Charts are created and populated with random data when index page refreshed
 
+## Demo is hosted at:
+
+[https://charts-fawn.vercel.app/](https://charts-fawn.vercel.app/)
